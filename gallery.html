@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="setImages()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	<div class = "flex">
+		<img class = "preview" alt = "Christ The Redeemer of Brazil with Maracana Stadium in the background" src = "images/christ_redeemer.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+		<img class = "preview" alt = "The Eiffel Tower seen from below" src = "images/eiffel_tower.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+		<img class = "preview" alt = "A part of the Great Wall of China at sunset" src = "images/great_wall.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+		<img class = "preview" alt = "A beautiful landscape of the ruins of Machu Picchu" src = "images/machu_picchu.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+		<img class = "preview" alt = "The Roman Colosseum at night" src = "images/roman_colosseum.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+		<img class = "preview" alt = "The Taj Mahal and its gardens" src = "images/taj_mahal.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+	</div>
+	
+</body>
+</html>
